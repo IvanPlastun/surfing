@@ -15,7 +15,6 @@ gulp.task('server', () => {
             baseDir: './app/'
         }
     });
-
     watch('./app/less/**/*.less').on('change', gulp.series('styles'));
     watch('./app/html/**/*.html').on('change', gulp.series('html'));
 });
@@ -56,7 +55,8 @@ gulp.task('html', () => {
         .pipe(fileInclude({
             prefix: '@@'
         }))
-        .pipe(gulp.dest('./app/'));
+        .pipe(gulp.dest('./app/'))
+        .pipe(browserSync.stream());
 });
 
 gulp.task('default', gulp.series('server', gulp.parallel('styles', 'html')));
