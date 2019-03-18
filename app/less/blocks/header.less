@@ -8,6 +8,15 @@
     top: 58px;
     right: -51px;
     width: 12px;
+
+    @media (max-width: 1400px) {
+        right: 30px;
+        top: 170px;
+
+        .site-desc__content {
+            color: #fff;
+        }
+    }
 }
 
 .site-desc__content {
@@ -25,21 +34,14 @@
     transform-origin: left top;
 }
 
-.header-social {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+.header-social-wrapper {
     width: 20px;
     position: absolute;
     right: -45px;
     bottom: 0;
-}
 
-.header-social__item {
-    margin-bottom: 32px;
-
-    &:last-child {
-        margin-bottom: 0;
+    @media (max-width: 1400px) {
+        right: 30px;
+        bottom: 30px;
     }
 }
