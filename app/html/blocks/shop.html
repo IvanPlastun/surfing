@@ -1,54 +1,32 @@
-    <section class="shop">
-        <div class="container">
-            <h2 class="title">
-                <span class="subtitle">Shop</span>
-                Surfboards
-            </h2>
-            <div class="shop-slider">
-                <div class="board">
-                    <div class="board__img-holder">
-                        <img class="board__img" src="img/boards/board-1.png" alt="Surfing board">
-                    </div>
-                    <div class="board-desc">
-                        <div class="board-cat">Funboards</div>
-                        <div class="board-title">Chilli Rare Bird</div>
-                        <div class="board-buy">
-                            <div class="board-buy__price">$890</div>
-                            <a href="#!" class="board-buy__link">Buy</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="board">
-                    <div class="board__img-holder">
-                        <img class="board__img" src="img/boards/board-2.png" alt="Surfing board">
-                    </div>
-                    <div class="board-desc">
-                        <div class="board-cat">Surfboards</div>
-                        <div class="board-title">Emery NEM XF</div>
-                        <div class="board-buy">
-                            <div class="board-buy__price">$950</div>
-                            <a href="#!" class="board-buy__link">Buy</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="board">
-                    <div class="board__img-holder">
-                        <img class="board__img" src="img/boards/board-3.png" alt="Surfing board">
-                    </div>
-                    <div class="board-desc">
-                        <div class="board-cat">Funboards</div>
-                        <div class="board-title">Agency Grom</div>
-                        <div class="board-buy">
-                            <div class="board-buy__price">$670</div>
-                            <a href="#!" class="board-buy__link">Buy</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="shop-link-wrapper"> 
-                <a class="read-more-link" href="#!">Show all</a>
+<section class="shop">
+    <div class="container">
+        <h2 class="title">
+            <span class="subtitle">Shop</span>
+            Surfboards
+        </h2>
+    </div>
+    <div class="shop-slider-wrapper container">
+        <div class="shop-slider-special-holder">
+            <div id="shopSlider" class="owl-carousel">
+                @@include('shop-items/board1.html')
+                @@include('shop-items/board2.html')
+                @@include('shop-items/board3.html')
             </div>
         </div>
-    </section>
+    </div>
+    <div class="container">
+        <div class="shopSlider-controls">
+            <div id="shopSliderLeft" class="shopSlider-arrow shopSlider-arrow--left">
+                <img src="../../img/controls/surfboards-left.svg" alt="prev">
+            </div>
+            <div id="shopSliderRight" class="shopSlider-arrow shopSlider-arrow--right">
+                <img src="../../img/controls/surfboards-right.svg" alt="next">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="shop-link-wrapper"> 
+            <a class="read-more-link" href="#!">Show all</a>
+        </div>
+    </div>
+</section>

@@ -8,66 +8,108 @@
     <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Playfair+Display:400,700|Poppins:300&amp;subset=cyrillic-ext" rel="stylesheet">
     <link href="http://allfont.ru/allfont.css?fonts=league-spartan" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
 </head>
 <body>
-        <header class="container header">
-            <nav class="navigation-wrapper">
-                <div class="nav-logo-wrapper">
-                    <a href="#!" class="logo">
-                        <img src="img/logo/logo.svg" alt="logo">
-                    </a>
-                </div>
+    <nav class="container navigation-wrapper relative">
+    <div class="nav-logo-wrapper">
+        <a href="#!" class="logo">
+            <img src="img/logo/logo.svg" alt="logo">
+        </a>
+    </div>
 
-                <ul class="navigation">
-                    <li class="navigation__item"><a class="navigation__link" href="#!">stories</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#!">events</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#!">places</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#!">boards</a></li>
-                </ul>
-            </nav>
-            <div class="slide-wrapper">
-                <!-- Slides -->
-                <div class="slide-item">
-                    <div class="slide-item-description">
-                        <h2 class="slide-item__heading">
-                            <span>Your</span>
-                            Beautiful Escape
-                        </h2>
-                        <div class="slide-item__text">
-                            <p>One of the greatest things about the sport of surfing is that you need only three things: your body, a surfboard, and a wave.</p>
-                        </div>
-                    </div>
-                    <div class="slide-item__img slide-item__img--bg-1"></div>
-                </div>
-                <!-- slides controls -->
-                <div class="slide-controls">
-                    <a class="slide-controls__left" href="#!">
-                        <img src="img/controls/angle-left.svg" alt="left">
-                    </a>
-                    <div class="slide-controls-number">
-                        <span class="slide-controls-number__active">1</span> 
-                        <span class="slide-controls-number__from">/</span>
-                        <span class="slide-controls-number__total">5</span>
-                    </div>
-                    <a class="slide-controls__right" href="#!">
-                        <img src="img/controls/angle-right.svg" alt="right">
-                    </a>
-                </div>
+    <ul class="navigation">
+        <li class="navigation__item"><a class="navigation__link" href="#!">stories</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#!">events</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#!">places</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#!">boards</a></li>
+    </ul>
+
+    <div class="site-desc">
+        <div class="site-desc__content">
+            First&nbsp;Surfing&nbsp;Magazine
+        </div>
+    </div>
+</nav>
+    <div class="slide-wrapper">
+    <div id="headerSlider" class="owl-carousel">
+        <div class="container slide-item">
+    <div class="slide-item-description">
+        <h2 class="slide-item__heading">
+            <span>Your</span>
+            Beautiful Escape
+        </h2>
+        <div class="slide-item__text">
+            <p>One of the greatest things about the sport of surfing is that you need only three things: your body, a surfboard, and a wave.</p>
+        </div>
+    </div>
+    <div class="slide-item__img slide-item__img--bg-1"></div>
+</div>
+        <div class="container slide-item">
+    <div class="slide-item-description">
+        <h2 class="slide-item__heading">
+            <span>Your</span>
+            Beautiful Escape
+        </h2>
+        <div class="slide-item__text">
+            <p>One of the greatest things about the sport of surfing is that you need only three things: your body, a surfboard, and a wave.</p>
+        </div>
+    </div>
+    <div class="slide-item__img slide-item__img--bg-1"></div>
+</div>
+        <div class="container slide-item">
+    <div class="slide-item-description">
+        <h2 class="slide-item__heading">
+            <span>Your</span>
+            Beautiful Escape
+        </h2>
+        <div class="slide-item__text">
+            <p>One of the greatest things about the sport of surfing is that you need only three things: your body, a surfboard, and a wave.</p>
+        </div>
+    </div>
+    <div class="slide-item__img slide-item__img--bg-1"></div>
+</div>
+        <div class="container slide-item">
+    <div class="slide-item-description">
+        <h2 class="slide-item__heading">
+            <span>Your</span>
+            Beautiful Escape
+        </h2>
+        <div class="slide-item__text">
+            <p>One of the greatest things about the sport of surfing is that you need only three things: your body, a surfboard, and a wave.</p>
+        </div>
+    </div>
+    <div class="slide-item__img slide-item__img--bg-1"></div>
+</div>
+    </div>
+
+    <div class="container relative">
+        <!-- Slide controls-->
+        <div class="slide-controls">
+            <a id="headerSliderLeft" class="slide-controls__left" href="#!">
+                <img src="img/controls/angle-left.svg" alt="left">
+            </a>
+            <div class="slide-controls-number">
+                <span class="slide-controls-number__active"></span> 
+                <span class="slide-controls-number__from">/</span>
+                <span class="slide-controls-number__total"></span>
             </div>
-            <div class="site-desc">
-                <div class="site-desc__content">
-                    First&nbsp;Surfing&nbsp;Magazine
-                </div>
+            <a id="headerSliderRight" class="slide-controls__right" href="#!">
+                <img src="img/controls/angle-right.svg" alt="right">
+            </a>
+        </div>
+        <!-- Social icons-->
+        <div class="header-social-wrapper">
+            <div class="social social--vertical">
+                <a class="social__item" href="#!"><img src="img/socials/trumblr.svg" alt="tumblr"></a>
+                <a class="social__item" href="#!"><img src="img/socials/twitter.svg" alt="twitter"></a>
+                <a class="social__item" href="#!"><img src="img/socials/vimeo.svg" alt="vimeo"></a>
             </div>
-            <div class="header-social-wrapper">
-                <div class="social social--vertical">
-                    <a class="social__item" href="#!"><img src="img/socials/trumblr.svg" alt="tumblr"></a>
-                    <a class="social__item" href="#!"><img src="img/socials/twitter.svg" alt="twitter"></a>
-                    <a class="social__item" href="#!"><img src="img/socials/vimeo.svg" alt="vimeo"></a>
-                </div>
-            </div>
-    </header>
+        </div>
+    </div>
+</div>
         <section class="quote">
         <div class="quote-wrapper">
             <div class="quote__text">
@@ -97,60 +139,74 @@
             </div>
         </div>
     </section>
-        <section class="shop">
-        <div class="container">
-            <h2 class="title">
-                <span class="subtitle">Shop</span>
-                Surfboards
-            </h2>
-            <div class="shop-slider">
+    <section class="shop">
+    <div class="container">
+        <h2 class="title">
+            <span class="subtitle">Shop</span>
+            Surfboards
+        </h2>
+    </div>
+    <div class="shop-slider-wrapper container">
+        <div class="shop-slider-special-holder">
+            <div id="shopSlider" class="owl-carousel">
                 <div class="board">
-                    <div class="board__img-holder">
-                        <img class="board__img" src="img/boards/board-1.png" alt="Surfing board">
-                    </div>
-                    <div class="board-desc">
-                        <div class="board-cat">Funboards</div>
-                        <div class="board-title">Chilli Rare Bird</div>
-                        <div class="board-buy">
-                            <div class="board-buy__price">$890</div>
-                            <a href="#!" class="board-buy__link">Buy</a>
-                        </div>
-                    </div>
-                </div>
-
+    <div class="board__img-holder">
+        <img class="board__img" src="img/boards/board-1.png" alt="Surfing board">
+    </div>
+    <div class="board-desc">
+        <div class="board-cat">Funboards</div>
+        <div class="board-title">Chilli Rare Bird</div>
+        <div class="board-buy">
+            <div class="board-buy__price">$890</div>
+            <a href="#!" class="board-buy__link">Buy</a>
+        </div>
+    </div>
+</div>
                 <div class="board">
-                    <div class="board__img-holder">
-                        <img class="board__img" src="img/boards/board-2.png" alt="Surfing board">
-                    </div>
-                    <div class="board-desc">
-                        <div class="board-cat">Surfboards</div>
-                        <div class="board-title">Emery NEM XF</div>
-                        <div class="board-buy">
-                            <div class="board-buy__price">$950</div>
-                            <a href="#!" class="board-buy__link">Buy</a>
-                        </div>
-                    </div>
-                </div>
-
+    <div class="board__img-holder">
+        <img class="board__img" src="img/boards/board-2.png" alt="Surfing board">
+    </div>
+    <div class="board-desc">
+        <div class="board-cat">Surfboards</div>
+        <div class="board-title">Emery NEM XF</div>
+        <div class="board-buy">
+            <div class="board-buy__price">$950</div>
+            <a href="#!" class="board-buy__link">Buy</a>
+        </div>
+    </div>
+</div>
                 <div class="board">
-                    <div class="board__img-holder">
-                        <img class="board__img" src="img/boards/board-3.png" alt="Surfing board">
-                    </div>
-                    <div class="board-desc">
-                        <div class="board-cat">Funboards</div>
-                        <div class="board-title">Agency Grom</div>
-                        <div class="board-buy">
-                            <div class="board-buy__price">$670</div>
-                            <a href="#!" class="board-buy__link">Buy</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="shop-link-wrapper"> 
-                <a class="read-more-link" href="#!">Show all</a>
+    <div class="board__img-holder">
+        <img class="board__img" src="img/boards/board-3.png" alt="Surfing board">
+    </div>
+    <div class="board-desc">
+        <div class="board-cat">Funboards</div>
+        <div class="board-title">Agency Grom</div>
+        <div class="board-buy">
+            <div class="board-buy__price">$670</div>
+            <a href="#!" class="board-buy__link">Buy</a>
+        </div>
+    </div>
+</div>
             </div>
         </div>
-    </section>
+    </div>
+    <div class="container">
+        <div class="shopSlider-controls">
+            <div id="shopSliderLeft" class="shopSlider-arrow shopSlider-arrow--left">
+                <img src="../../img/controls/surfboards-left.svg" alt="prev">
+            </div>
+            <div id="shopSliderRight" class="shopSlider-arrow shopSlider-arrow--right">
+                <img src="../../img/controls/surfboards-right.svg" alt="next">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="shop-link-wrapper"> 
+            <a class="read-more-link" href="#!">Show all</a>
+        </div>
+    </div>
+</section>
     <section class="container">
     <article class="article article--odd">
         <div class="article__desc">
@@ -233,6 +289,11 @@
         </div>
     </div>
 </footer>
+
+    <script src="./libs/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="./js/header-slider.js"></script>
+    <script src="./js/shop-slider.js"></script>
 </body>
 </html>
