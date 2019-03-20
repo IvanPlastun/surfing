@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Playfair+Display:400,700|Poppins:300&amp;subset=cyrillic-ext" rel="stylesheet">
     <link href="http://allfont.ru/allfont.css?fonts=league-spartan" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
 </head>
 <body>
-    @@include('blocks/header.html')
+    @@include('blocks/navigation.html')
+    @@include('blocks/slider.html')
     @@include('blocks/quote.html')
     @@include('blocks/description.html')
     @@include('blocks/shop.html')
@@ -20,6 +23,11 @@
     @@include('blocks/subscribe.html')
     @@include('blocks/camp.html')
     @@include('blocks/footer.html')
+
+    <script src="./libs/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="./js/header-slider.js"></script>
+    <script src="./js/shop-slider.js"></script>
 </body>
 </html>
