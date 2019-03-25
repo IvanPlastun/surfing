@@ -1,11 +1,13 @@
 .social {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
 
-    &--vertical {
-        width: 20px;
+.social.social--header {
+
+    @media (min-width: 1254px) {
         flex-direction: column;
-        align-items: center;
     }
 }
 
@@ -20,9 +22,11 @@
     &:last-child {
         margin-right: 0;
     }
+}
 
+.social--header .social__item {
 
-    .social--vertical & {
+    @media (min-width: 1254px) {
         margin: 0;
         margin-bottom: 35px;
 
