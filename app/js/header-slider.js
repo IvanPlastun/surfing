@@ -10,7 +10,7 @@ $(document).ready(function() {
         items: 1,
         //loop: true,
         dots: false,
-        smartSpeed: 2000
+        smartSpeed: 1000
     });
 
     $('#headerSliderRight').click(function() {
